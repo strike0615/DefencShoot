@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\utility">
+      <UniqueIdentifier>{d3d9c38a-7102-463a-b109-83912fb18a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\utility\gplib">
+      <UniqueIdentifier>{912e2aca-0607-416e-b892-46789090e1ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\utility\esing">
+      <UniqueIdentifier>{ceed0a2d-653f-4b7d-8877-b7ecab98b3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\utility\effect">
+      <UniqueIdentifier>{bd642ba2-4b3f-4550-a415-049bd69bd60c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\utility\charabase">
+      <UniqueIdentifier>{3e15a8f7-9d3d-412a-bea6-3318c781293b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\user">
+      <UniqueIdentifier>{56a36f03-5d99-41f1-b13e-5e7b911f17ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\utility\gameover">
+      <UniqueIdentifier>{96b35b03-166d-4758-a284-93ed42f0cbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\user\end">
+      <UniqueIdentifier>{41e556fd-6e9c-4274-ba90-383d21968d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\user\stage1">
+      <UniqueIdentifier>{53e683b8-f489-44ab-8d22-a7acd05b3693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\user\title">
+      <UniqueIdentifier>{9208c778-0834-46d9-a215-6af1573d2d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\utility\gamestart">
+      <UniqueIdentifier>{4079b0fb-88c3-4409-b89e-fd553cadf2e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\lib\gplib.cpp">
+      <Filter>ソース ファイル\utility\gplib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\effect.cpp">
+      <Filter>ソース ファイル\utility\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\CharBase.cpp">
+      <Filter>ソース ファイル\utility\charabase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\esing.cpp">
+      <Filter>ソース ファイル\utility\esing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\Gameover.cpp">
+      <Filter>ソース ファイル\utility\gameover</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Title.cpp">
+      <Filter>ソース ファイル\user\title</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stage1.cpp">
+      <Filter>ソース ファイル\user\stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\end.cpp">
+      <Filter>ソース ファイル\user\end</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\GameStart.cpp">
+      <Filter>ソース ファイル\utility\gamestart</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\lib\gplib.h">
+      <Filter>ソース ファイル\utility\gplib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\effect.h">
+      <Filter>ソース ファイル\utility\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\CharBase.h">
+      <Filter>ソース ファイル\utility\charabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\esing.h">
+      <Filter>ソース ファイル\utility\esing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\Gameover.h">
+      <Filter>ソース ファイル\utility\gameover</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Title.h">
+      <Filter>ソース ファイル\user\title</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stage1.h">
+      <Filter>ソース ファイル\user\stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="src\end.h">
+      <Filter>ソース ファイル\user\end</Filter>
+    </ClInclude>
+    <ClInclude Include="src\define.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\GameStart.h">
+      <Filter>ソース ファイル\utility\gamestart</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\lib\res.rc">
+      <Filter>ソース ファイル\utility</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

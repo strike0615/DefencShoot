@@ -1,0 +1,17 @@
+//dataファイルはtagNameの下に
+//resName pos　scale　src　srcSize順にVec3f型は(x,y,z)の形に書きます
+//tagNameは"="で終わります
+//例
+//tag=
+//resName (1,1,1) (0,0,0) (1,1,1) (1,1,1)
+//dataとdataの間に改行しても構いません。
+
+//beamのposはyashiro_.posX()+100+512,yashiro_.posY()+100になります。
+
+beam=
+beam (762,372,0.1) (2,1,1) (0,0,0) (512,128,0)
+
+preLightFrame=
+30
+attackingFrame=
+120

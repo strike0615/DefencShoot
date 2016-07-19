@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\lib">
+      <UniqueIdentifier>{46cb6a3b-5b55-4c2f-97f1-91b3ca4a8260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\lib\ext">
+      <UniqueIdentifier>{ddb34ed1-62c7-43f5-acdf-54b453b11101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\lib\3d">
+      <UniqueIdentifier>{ad15e082-7e24-45cd-852c-9844ec492792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\logo">
+      <UniqueIdentifier>{cef3acf1-f2f2-468e-b063-1719853e181a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\stage">
+      <UniqueIdentifier>{d296a82c-dbf1-4c8a-b0ba-806dde467042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\utility">
+      <UniqueIdentifier>{894ba586-5e2e-43c9-b492-4e5737466b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main">
+      <UniqueIdentifier>{0605eddd-b82a-402e-a0bb-1dccb1705df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\title">
+      <UniqueIdentifier>{a3461679-e754-4272-933a-c9e288798c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\player">
+      <UniqueIdentifier>{0e469672-579c-4812-873b-9b3f28861cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\enemy">
+      <UniqueIdentifier>{79fa6da9-d8cd-4eff-96c1-399494e81e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\utility\myUtility">
+      <UniqueIdentifier>{79346f7a-7df9-4f1a-89e1-5c674e4a2338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\shot">
+      <UniqueIdentifier>{c6fdef53-7d33-498c-bd1a-4aecb515583f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\lib\gplib.h">
+      <Filter>ソース ファイル\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\object.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\DrawObj.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\vec3.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\math.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\Counter.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\xinput.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\Line.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\Polygon.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\Triangle.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\ci_ext.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\Console.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\define.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\MeasureTime.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\Task.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\TaskManager.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ci_ext\color.hpp">
+      <Filter>ソース ファイル\lib\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\dx_media_\dx.h">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\dx_media_\dx_anime_cont_auxiliary.h">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\dx_media_\dx_anime_mesh.h">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\dx_media_\dx_base_mesh.h">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\dx_media_\dx_camera.h">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\dx_media_\dx_font.h">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\dx_media_\dx_graphics3d.h">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\dx_media_\dx_mesh.h">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\dx_media_\dx_piece_texture.h">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\dx_media_\dx_texture.h">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\dx_media_\dx3dmeshmanager.h">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\dx_media_\media_manager.h">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\dx_media_\mesh_manager.h">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\dx_media_\texture_manager.h">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\CharBase.h">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\collider.h">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\effect.h">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timer.h">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\movableObject.h">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logo.hpp">
+      <Filter>ソース ファイル\logo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stage.h">
+      <Filter>ソース ファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tiltle.hpp">
+      <Filter>ソース ファイル\title</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player.h">
+      <Filter>ソース ファイル\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy.h">
+      <Filter>ソース ファイル\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\myUtility\animator.hpp">
+      <Filter>ソース ファイル\utility\myUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\myUtility\data.h">
+      <Filter>ソース ファイル\utility\myUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\myUtility\drawObject.hpp">
+      <Filter>ソース ファイル\utility\myUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\myUtility\fade.hpp">
+      <Filter>ソース ファイル\utility\myUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\myUtility\movingObj.h">
+      <Filter>ソース ファイル\utility\myUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\myUtility\myCollider.h">
+      <Filter>ソース ファイル\utility\myUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\myUtility\loadGameRes.h">
+      <Filter>ソース ファイル\utility\myUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\myUtility\nowLoadingImage.h">
+      <Filter>ソース ファイル\utility\myUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shot.h">
+      <Filter>ソース ファイル\shot</Filter>
+    </ClInclude>
+    <ClInclude Include="src\beam.h">
+      <Filter>ソース ファイル\shot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\lib\gplib.cpp">
+      <Filter>ソース ファイル\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\dx_media_\dx_anime_cont_auxiliary.cpp">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\dx_media_\dx_anime_mesh.cpp">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\dx_media_\dx_base_mesh.cpp">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\dx_media_\dx_camera.cpp">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\dx_media_\dx_font.cpp">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\dx_media_\dx_graphics3d.cpp">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\dx_media_\dx_mesh.cpp">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\dx_media_\dx_piece_texture.cpp">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\dx_media_\dx_texture.cpp">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\dx_media_\dx3dmeshmanager.cpp">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\dx_media_\media_manager.cpp">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\dx_media_\mesh_manager.cpp">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\dx_media_\texture_manager.cpp">
+      <Filter>ソース ファイル\lib\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\movableObject.cpp">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\CharBase.cpp">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\collider.cpp">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\effect.cpp">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer.cpp">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stage.cpp">
+      <Filter>ソース ファイル\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.cpp">
+      <Filter>ソース ファイル\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy.cpp">
+      <Filter>ソース ファイル\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\myUtility\data.cpp">
+      <Filter>ソース ファイル\utility\myUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\myUtility\movingObj.cpp">
+      <Filter>ソース ファイル\utility\myUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\myUtility\myCollider.cpp">
+      <Filter>ソース ファイル\utility\myUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\myUtility\loadGameRes.cpp">
+      <Filter>ソース ファイル\utility\myUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\myUtility\nowLoadingImage.cpp">
+      <Filter>ソース ファイル\utility\myUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shot.cpp">
+      <Filter>ソース ファイル\shot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\beam.cpp">
+      <Filter>ソース ファイル\shot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\res.rc">
+      <Filter>ソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

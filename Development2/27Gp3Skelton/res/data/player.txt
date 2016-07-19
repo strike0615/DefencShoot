@@ -1,0 +1,30 @@
+//dataファイルはtagNameの下に
+//resName pos　scale　src　srcSize順にVec3f型は(x,y,z)の形に書きます
+//tagNameは"="で終わります
+//例
+//tag=
+//resName (1,1,1) (0,0,0) (1,1,1) (1,1,1)
+//dataとdataの間に改行しても構いません。
+
+yashiro=
+yashiro (150,272,0.5) (1,1,1) (0,0,0) (300,420,0)
+
+life=
+1000
+impactCoolFrame=
+400
+powMax=
+50
+beamChargeMax=
+5
+
+colliderRadius=
+150
+
+auraName0=
+ora0
+auraName1=
+ora1
+auraName2=
+ora2
+

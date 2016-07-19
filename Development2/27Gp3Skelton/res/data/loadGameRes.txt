@@ -1,0 +1,29 @@
+//////////////////////////////////////////////////////////////////////
+//type=image,BGM,SE,End等は必ず書いてください、リソースを区切ります。
+//リソース名、パス、コメント順にスペースかTABで区切ってください。
+//一行には必ず、リソース名、パスを入力してください
+//無駄な改行はしないでください。起動中落ちます。
+//リソース名、パスの間違いにご注意ください
+//////////////////////////////////////////////////////////////////////
+
+
+type=image
+titleback	res/gra/titleback.png
+titlelogo	res/gra/titlelogo.png
+back		res/gra/back.png
+yashiro		res/gra/oyasiro.png
+ora0		res/gra/ora0.png
+ora1		res/gra/ora1.png
+ora2		res/gra/ora2.png
+shot		res/gra/shot.png
+beam		res/gra/beam.png
+kuma		res/gra/kuma.png
+type=BGM
+pinchi_bgm	res/bgm/bgm_pinchi.WAV 		///////////BGM終わり//////////
+type=SE
+break1 		res/bgm/se_break1.WAV 
+break2 		res/bgm/se_break2.WAV 
+hukitobi 	res/bgm/se_hukitobi.WAV
+backSE		res/bgm/se_kinoko.WAV 
+skill 		res/bgm/se_skill.WAV 		///////SoundEffect終わり////
+type=End

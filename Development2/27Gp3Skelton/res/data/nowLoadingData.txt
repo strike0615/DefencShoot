@@ -1,0 +1,19 @@
+type=image
+start_egg	res/gra/start_egg.png
+start_egg2	res/gra/start_egg2.png
+
+//resName pos　scale　src　srcSize順にVec3f型は(x,y,z)の形に
+start_egg=
+start_egg (480,172,0.5) (0.4,0.4,1) (0,0,0) (250,500,0)
+start_egg2 (480,172,0.5) (0.4,0.4,1) (0,0,0) (250,500,0)
+
+tips=
+tips
+(640,360,0.5)
+
+barPos_=
+(480,500,0)
+barSize_=
+(960,32,0)
+
+type=End

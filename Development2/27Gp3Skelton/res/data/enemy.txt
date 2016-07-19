@@ -1,0 +1,28 @@
+//dataファイルはtagNameの下に
+//resName pos　scale　src　srcSize順にVec3f型は(x,y,z)の形に書きます
+//tagNameは"="で終わります
+//例
+//tag=
+//resName (1,1,1) (1,1,1) (1,1,1) (1,1,1)
+//dataとdataの間に改行しても構いません。
+
+kuma=
+kuma (0,200,0) (1,1,1) (0,0,0) (225,225,0)
+
+speed=
+1
+
+lifeMax=
+12
+
+attackPow=
+1
+
+rushPow=
+100
+
+colliderRadius=
+112
+
+backFrame=
+100
